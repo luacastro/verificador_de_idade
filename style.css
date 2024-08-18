@@ -9,7 +9,7 @@ body{
 }
 h1{
     text-align: center;
-    color: white;
+    color: white; 
     padding: 40px;
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.514);
 }
@@ -18,7 +18,7 @@ main{
     background-color: white;
     margin: auto;
     padding: 30px;
-    height: 30vh;
+    height: 60vh;
     border-radius: 5px;
     text-align: center;
     font-size: 1.5em;

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Verificador de idade</title>
   </head>
@@ -10,10 +11,10 @@
     <header>
       <h1>Verificador de idade</h1>
     </header>
-    <main>
+    <main> 
       <div>
         <p>Ano de nascimento: 
-            <input type="number" name="txtano" id="txtano" min="0" max="200" /> 
+            <input type="number" name="textano" id="txtano" class="sla" /> 
         </p>
         <p>Gênero:
             <input type="radio" name="gender" id="masc" checked />
@@ -22,8 +23,7 @@
             <label for="fem">Feminino</label>
         </p>
         <p>
-            <input type="button" value="verificar" id="button">
-            <p>Preencha os dados acima para o resultado!</p>
+            <input type="button" value="verificar" id="button" onclick="verificar()">
         </p>
       </div>
       <div id="res"></div>
@@ -32,5 +32,6 @@
       <p>Luana para o Cursoemvideo</p>
     </footer>
     <script src="main.js"></script>
+    <script src="outro.js"></script>
   </body>
 </html>
