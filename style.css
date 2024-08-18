@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(77, 102, 241);
+    font-family: arial;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.514);
+}
+main{
+    width: 30vw;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    height: 30vh;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.329);
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#button{
+    padding: 5px;
+}
+img{
+    border-radius: 50%;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
